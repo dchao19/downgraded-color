@@ -1,31 +1,33 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <SVGFilters></SVGFilters>
+    <router-view />
   </div>
 </template>
 
+<script>
+import SVGFilters from "@/components/SVGFilters.vue";
+
+export default {
+  components: {
+    SVGFilters
+  }
+};
+</script>
+
 <style>
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700");
+
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
 }
 </style>

@@ -1,0 +1,45 @@
+.infoPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.infoPage_icon {
+    font-size: 10em;
+}
+
+.infoPage_header {
+    padding-top: 1em;
+    font-weight: 700;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+}
+
+.achromatopsia {
+    filter: url(#achromatopsia);
+}
+
+.deuteranomaly {
+    filter: url(#deuteranomaly)
+}
+
+.tritanopia {
+    filter: url(#tritanopia)
+}

@@ -1,6 +1,6 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Home from "./views/Home.vue";
+import Introduction from "./views/Introduction.vue";
 
 Vue.use(Router);
 
@@ -9,16 +9,43 @@ export default new Router({
     {
       path: "/",
       name: "home",
-      component: Home
+      component: Introduction
     },
     {
-      path: "/about",
-      name: "about",
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
+      path: "/camera",
+      name: "camera",
       component: () =>
-        import(/* webpackChunkName: "about" */ "./views/About.vue")
+        import(/* webpackChunkName: "camera" */ "./views/Camera.vue"),
+      meta: {
+        title: "Color | Camera"
+      }
+    },
+    {
+      path: "/symptoms",
+      name: "symptoms",
+      component: () =>
+        import(/* webpackChunkName: "symptoms" */ "./views/Symptoms.vue"),
+      meta: {
+        title: "Color | Symptoms"
+      }
+    },
+    {
+      path: "/genetics",
+      name: "genetics",
+      meta: {
+        title: "Color | Genetics"
+      },
+      component: () =>
+        import(/* webpackChunkName: "genetics" */ "./views/Genetics.vue")
+    },
+    {
+      path: "/prevalence",
+      name: "prevalence",
+      meta: {
+        title: "Color | Prevalence"
+      },
+      component: () =>
+        import(/* webpackChunkName: "prevalence" */ "./views/Prevalence.vue")
     }
   ]
 });

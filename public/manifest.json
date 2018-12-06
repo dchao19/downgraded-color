@@ -1,6 +1,6 @@
 {
-  "name": "colors",
-  "short_name": "colors",
+  "name": "Color",
+  "short_name": "Color",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",
