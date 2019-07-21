@@ -12,10 +12,13 @@
       colorblindness. <strong>Tritanopia</strong> has an
       <em>autosomal dominant</em> pattern, meaning for both males and females,
       individuals would only have to inherit one affected copy for the gene to
-      be express this condition. <strong>Achromatopsia</strong> has an
+      be express this condition. Both Deuteranomaly and Tritanopia are caused by
+      mutations in the OPN1LW, OPN1MW, and OPN1SW genes.
+      <strong>Achromatopsia</strong> has an
       <em>autosomal recessive</em> pattern, so both males and females would have
       to inherit two copies of the affected gene to express this form of
-      complete colorblindness.
+      complete colorblindness. Achromatopsia results from mutations in the
+      CNGA3, CNGB3, GNAT2, PDE6C, or PDE6H genes.
     </p>
     <b-button to="/prevalence" variant="primary">
       Continue <ChevronRightIcon />

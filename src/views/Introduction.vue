@@ -7,7 +7,7 @@
       are all but crucial to everyday life, they seem to fail us more often than
       not. Take standard, corrective, vision, for instance. Visual acuity and
       accuracy is so important we are willing to cover our pupils and lenses
-      with "neosilficate-A" to see clearly. At the same time, even people with
+      with lenses and glasses to see clearly. At the same time, even people with
       the worst astigmatism or the +8 near-sighted-ness share a similar phenonomon
       that unites this human experience: color. We may see it in different ways,
       but at a certain level, our perception of color is unceasing and always prevalent.
